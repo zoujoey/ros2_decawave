@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing decawave_test_controller.egg-info/PKG-INFO
+writing dependency_links to decawave_test_controller.egg-info/dependency_links.txt
+writing entry points to decawave_test_controller.egg-info/entry_points.txt
+writing requirements to decawave_test_controller.egg-info/requires.txt
+writing top-level names to decawave_test_controller.egg-info/top_level.txt
+reading manifest file 'decawave_test_controller.egg-info/SOURCES.txt'
+writing manifest file 'decawave_test_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave-test-controller.egg-link (link to .)
+Installing decawave_pub1 script to /root/ros2_decawave/install/decawave_test_controller/lib/decawave_test_controller
+Installing decawave_sub1 script to /root/ros2_decawave/install/decawave_test_controller/lib/decawave_test_controller
+
+Installed /root/ros2_decawave/build/decawave_test_controller
+running install_data

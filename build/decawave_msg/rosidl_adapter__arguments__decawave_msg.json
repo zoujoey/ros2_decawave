@@ -1,0 +1,6 @@
+{
+  "package_name": "decawave_msg",
+  "non_idl_tuples": [
+    "/root/ros2_decawave/src/decawave_msg:msg/DecaRange.msg"
+  ]
+}

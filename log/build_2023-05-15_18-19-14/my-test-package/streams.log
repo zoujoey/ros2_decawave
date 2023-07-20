@@ -1,0 +1,13 @@
+[0.659s] Invoking command in '/root/ros2_decawave/build/my-test-package': PYTHONPATH=/root/ros2_decawave/build/my-test-package/prefix_override:/root/ros2_decawave/install/my-test-package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_decawave/build/my-test-package/build --no-deps
+[0.940s] running develop
+[1.111s] running egg_info
+[1.111s] writing my_test_package.egg-info/PKG-INFO
+[1.111s] writing dependency_links to my_test_package.egg-info/dependency_links.txt
+[1.112s] writing top-level names to my_test_package.egg-info/top_level.txt
+[1.112s] reading manifest file 'my_test_package.egg-info/SOURCES.txt'
+[1.113s] writing manifest file 'my_test_package.egg-info/SOURCES.txt'
+[1.114s] running build_ext
+[1.115s] Creating /root/ros2_decawave/install/my-test-package/lib/python3.10/site-packages/my-test-package.egg-link (link to .)
+[1.116s] 
+[1.116s] Installed /root/ros2_decawave/build/my-test-package
+[1.144s] Invoked command in '/root/ros2_decawave/build/my-test-package' returned '0': PYTHONPATH=/root/ros2_decawave/build/my-test-package/prefix_override:/root/ros2_decawave/install/my-test-package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_decawave/build/my-test-package/build --no-deps

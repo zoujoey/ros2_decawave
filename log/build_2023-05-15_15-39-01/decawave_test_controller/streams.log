@@ -1,0 +1,24 @@
+[0.979s] Invoking command in '/root/ros2_decawave/build/decawave_test_controller': PYTHONPATH=/root/ros2_decawave/build/decawave_test_controller/prefix_override:/root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_decawave/build/decawave_test_controller/build --no-deps install_data
+[1.255s] running develop
+[1.424s] running egg_info
+[1.424s] creating decawave_test_controller.egg-info
+[1.424s] writing decawave_test_controller.egg-info/PKG-INFO
+[1.424s] writing dependency_links to decawave_test_controller.egg-info/dependency_links.txt
+[1.424s] writing entry points to decawave_test_controller.egg-info/entry_points.txt
+[1.425s] writing requirements to decawave_test_controller.egg-info/requires.txt
+[1.425s] writing top-level names to decawave_test_controller.egg-info/top_level.txt
+[1.425s] writing manifest file 'decawave_test_controller.egg-info/SOURCES.txt'
+[1.428s] reading manifest file 'decawave_test_controller.egg-info/SOURCES.txt'
+[1.429s] writing manifest file 'decawave_test_controller.egg-info/SOURCES.txt'
+[1.431s] running build_ext
+[1.432s] Creating /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave-test-controller.egg-link (link to .)
+[1.433s] Installing decawave_sub1 script to /root/ros2_decawave/install/decawave_test_controller/lib/decawave_test_controller
+[1.434s] 
+[1.434s] Installed /root/ros2_decawave/build/decawave_test_controller
+[1.434s] running install_data
+[1.434s] creating /root/ros2_decawave/install/decawave_test_controller/share/ament_index
+[1.434s] creating /root/ros2_decawave/install/decawave_test_controller/share/ament_index/resource_index
+[1.435s] creating /root/ros2_decawave/install/decawave_test_controller/share/ament_index/resource_index/packages
+[1.435s] copying resource/decawave_test_controller -> /root/ros2_decawave/install/decawave_test_controller/share/ament_index/resource_index/packages
+[1.435s] copying package.xml -> /root/ros2_decawave/install/decawave_test_controller/share/decawave_test_controller
+[1.504s] Invoked command in '/root/ros2_decawave/build/decawave_test_controller' returned '0': PYTHONPATH=/root/ros2_decawave/build/decawave_test_controller/prefix_override:/root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_decawave/build/decawave_test_controller/build --no-deps install_data

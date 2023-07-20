@@ -1,0 +1,17 @@
+[  3%] Built target decawave_msg__cpp
+failed to create symbolic link '/root/ros2_decawave/build/decawave_msg/ament_cmake_python/decawave_msg/decawave_msg' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_decawave_msg.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_decawave_msg] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_decawave_msg.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 12%] Built target decawave_msg__rosidl_generator_c
+[ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_typesupport_cpp[0m
+[ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 29%] Built target decawave_msg__rosidl_typesupport_cpp
+[ 32%] [32mBuilding CXX object CMakeFiles/decawave_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/decawave_msg/msg/detail/deca_range__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/decawave_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/decawave_msg/msg/detail/dds_fastrtps/deca_range__type_support.cpp.o[0m
+[ 38%] [32m[1mLinking CXX shared library libdecawave_msg__rosidl_typesupport_introspection_cpp.so[0m
+[ 41%] [32m[1mLinking CXX shared library libdecawave_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 41%] Built target decawave_msg__rosidl_typesupport_introspection_cpp
+[ 41%] Built target decawave_msg__rosidl_typesupport_fastrtps_cpp
+gmake: *** [Makefile:146: all] Error 2

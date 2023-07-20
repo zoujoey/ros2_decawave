@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000636] (-) JobUnselected: {'identifier': 'decawave_msg'}
+[0.000715] (-) JobUnselected: {'identifier': 'decawave_test_controller'}
+[0.000770] (-) JobUnselected: {'identifier': 'my-test-package'}
+[0.001097] (-) EventReactorShutdown: {}

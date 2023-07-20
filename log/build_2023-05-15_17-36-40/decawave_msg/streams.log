@@ -1,0 +1,7 @@
+[0.020s] Invoking command in '/root/ros2_decawave/build/decawave_msg': CMAKE_PREFIX_PATH=/root/ros2_decawave/install/decawave_test_controller:/root/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /root/ros2_decawave/src/decawave_msg -DCMAKE_INSTALL_PREFIX=/root/ros2_decawave/install/decawave_msg
+[0.069s] [31mCMake Error at CMakeLists.txt:18:
+[0.070s]   Parse error.  Expected "(", got identifier with text "dependencies".
+[0.070s] 
+[0.070s] [0m
+[0.070s] -- Configuring incomplete, errors occurred!
+[0.078s] Invoked command in '/root/ros2_decawave/build/decawave_msg' returned '1': CMAKE_PREFIX_PATH=/root/ros2_decawave/install/decawave_test_controller:/root/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /root/ros2_decawave/src/decawave_msg -DCMAKE_INSTALL_PREFIX=/root/ros2_decawave/install/decawave_msg

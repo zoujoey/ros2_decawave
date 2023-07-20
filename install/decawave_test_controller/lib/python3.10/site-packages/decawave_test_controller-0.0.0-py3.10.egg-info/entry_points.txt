@@ -1,0 +1,8 @@
+[console_scripts]
+decawave_pub1 = decawave_test_controller.decawave_pub1:main
+decawave_pub2 = decawave_test_controller.decawave_pub2:main
+decawave_pub3 = decawave_test_controller.decawave_pub3:main
+decawave_sub1 = decawave_test_controller.decawave_sub1:main
+decawave_sub2 = decawave_test_controller.decawave_sub2:main
+decawave_sub3 = decawave_test_controller.decawave_sub3:main
+

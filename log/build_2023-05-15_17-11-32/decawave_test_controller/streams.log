@@ -1,0 +1,48 @@
+[0.962s] Invoking command in '/root/ros2_decawave/build/decawave_test_controller': PYTHONPATH=/root/ros2_decawave/build/decawave_test_controller/prefix_override:/root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /root/ros2_decawave/build/decawave_test_controller/build
+[1.235s] running develop
+[1.400s] Removing /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave-test-controller.egg-link (link to .)
+[1.429s] Invoked command in '/root/ros2_decawave/build/decawave_test_controller' returned '0': PYTHONPATH=/root/ros2_decawave/build/decawave_test_controller/prefix_override:/root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /root/ros2_decawave/build/decawave_test_controller/build
+[1.430s] Invoking command in '/root/ros2_decawave/src/decawave_test_controller': PYTHONPATH=/root/ros2_decawave/build/decawave_test_controller/prefix_override:/root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/decawave_test_controller build --build-base /root/ros2_decawave/build/decawave_test_controller/build install --record /root/ros2_decawave/build/decawave_test_controller/install.log --single-version-externally-managed
+[1.726s] running egg_info
+[1.727s] writing ../../build/decawave_test_controller/decawave_test_controller.egg-info/PKG-INFO
+[1.727s] writing dependency_links to ../../build/decawave_test_controller/decawave_test_controller.egg-info/dependency_links.txt
+[1.728s] writing entry points to ../../build/decawave_test_controller/decawave_test_controller.egg-info/entry_points.txt
+[1.728s] writing requirements to ../../build/decawave_test_controller/decawave_test_controller.egg-info/requires.txt
+[1.728s] writing top-level names to ../../build/decawave_test_controller/decawave_test_controller.egg-info/top_level.txt
+[1.732s] reading manifest file '../../build/decawave_test_controller/decawave_test_controller.egg-info/SOURCES.txt'
+[1.732s] writing manifest file '../../build/decawave_test_controller/decawave_test_controller.egg-info/SOURCES.txt'
+[1.733s] running build
+[1.733s] running build_py
+[1.733s] creating /root/ros2_decawave/build/decawave_test_controller/build
+[1.733s] creating /root/ros2_decawave/build/decawave_test_controller/build/lib
+[1.734s] creating /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[1.735s] copying decawave_test_controller/decawave_pub1.py -> /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[1.735s] copying decawave_test_controller/decawave_pub2.py -> /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[1.735s] copying decawave_test_controller/decawave_sub2.py -> /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[1.736s] copying decawave_test_controller/decawave_origin.py -> /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[1.736s] copying decawave_test_controller/decawave_sub1.py -> /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[1.737s] copying decawave_test_controller/__init__.py -> /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[1.737s] running install
+[1.737s] running install_lib
+[1.738s] creating /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller
+[1.739s] copying /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller/decawave_pub1.py -> /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller
+[1.739s] copying /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller/decawave_pub2.py -> /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller
+[1.739s] copying /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller/decawave_sub2.py -> /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller
+[1.739s] copying /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller/decawave_origin.py -> /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller
+[1.739s] copying /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller/decawave_sub1.py -> /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller
+[1.740s] copying /root/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller/__init__.py -> /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller
+[1.740s] byte-compiling /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller/decawave_pub1.py to decawave_pub1.cpython-310.pyc
+[1.742s] byte-compiling /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller/decawave_pub2.py to decawave_pub2.cpython-310.pyc
+[1.742s] byte-compiling /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller/decawave_sub2.py to decawave_sub2.cpython-310.pyc
+[1.743s] byte-compiling /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller/decawave_origin.py to decawave_origin.cpython-310.pyc
+[1.744s] byte-compiling /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller/decawave_sub1.py to decawave_sub1.cpython-310.pyc
+[1.744s] byte-compiling /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller/__init__.py to __init__.cpython-310.pyc
+[1.745s] running install_data
+[1.745s] copying package.xml -> /root/ros2_decawave/install/decawave_test_controller/share/decawave_test_controller
+[1.746s] running install_egg_info
+[1.747s] Copying ../../build/decawave_test_controller/decawave_test_controller.egg-info to /root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages/decawave_test_controller-0.0.0-py3.10.egg-info
+[1.751s] running install_scripts
+[1.771s] Installing decawave_pub1 script to /root/ros2_decawave/install/decawave_test_controller/lib/decawave_test_controller
+[1.772s] Installing decawave_sub1 script to /root/ros2_decawave/install/decawave_test_controller/lib/decawave_test_controller
+[1.772s] writing list of installed files to '/root/ros2_decawave/build/decawave_test_controller/install.log'
+[1.803s] Invoked command in '/root/ros2_decawave/src/decawave_test_controller' returned '0': PYTHONPATH=/root/ros2_decawave/build/decawave_test_controller/prefix_override:/root/ros2_decawave/install/decawave_test_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/decawave_test_controller build --build-base /root/ros2_decawave/build/decawave_test_controller/build install --record /root/ros2_decawave/build/decawave_test_controller/install.log --single-version-externally-managed

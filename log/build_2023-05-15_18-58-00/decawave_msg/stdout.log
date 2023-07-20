@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_generator_c[0m
+[  3%] Built target decawave_msg__cpp
+[ 12%] Built target decawave_msg__rosidl_generator_c
+[ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/decawave_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/decawave_msg/msg/deca_range__type_support.cpp.o[0m
+[ 22%] [32m[1mLinking CXX shared library libdecawave_msg__rosidl_typesupport_cpp.so[0m
+[ 22%] Built target decawave_msg__rosidl_typesupport_cpp

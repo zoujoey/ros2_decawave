@@ -1,0 +1,172 @@
+[0.028s] Invoking command in '/root/ros2_decawave/build/decawave_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_decawave/install/decawave_test_controller:/root/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /root/ros2_decawave/build/decawave_msg -- -j16 -l16
+[0.048s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.206s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.437s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.440s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.446s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.475s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.534s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.810s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.327s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.350s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.374s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.374s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.374s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.406s] -- Configuring done
+[1.437s] -- Generating done
+[1.440s] -- Build files have been written to: /root/ros2_decawave/build/decawave_msg
+[1.463s] [35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_generator_c[0m
+[1.471s] [  3%] Built target decawave_msg__cpp
+[1.472s] [ 12%] Built target decawave_msg__rosidl_generator_c
+[1.480s] [35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_typesupport_fastrtps_cpp[0m
+[1.480s] [ 12%] Built target ament_cmake_python_copy_decawave_msg
+[1.481s] [35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_typesupport_cpp[0m
+[1.482s] [35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_typesupport_introspection_cpp[0m
+[1.483s] [35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_typesupport_fastrtps_c[0m
+[1.483s] [35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_typesupport_introspection_c[0m
+[1.484s] [35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_typesupport_c[0m
+[1.497s] [ 22%] Built target decawave_msg__rosidl_typesupport_fastrtps_cpp
+[1.497s] [ 32%] Built target decawave_msg__rosidl_typesupport_cpp
+[1.498s] [ 41%] Built target decawave_msg__rosidl_typesupport_introspection_c
+[1.498s] [ 51%] Built target decawave_msg__rosidl_typesupport_c
+[1.499s] [ 61%] Built target decawave_msg__rosidl_typesupport_introspection_cpp
+[1.499s] [ 70%] Built target decawave_msg__rosidl_typesupport_fastrtps_c
+[1.514s] [ 70%] Built target decawave_msg
+[1.531s] [ 74%] Built target decawave_msg__py
+[1.540s] [35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_generator_py[0m
+[1.551s] [ 80%] Built target decawave_msg__rosidl_generator_py
+[1.560s] [35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.560s] [35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_typesupport_c__pyext[0m
+[1.561s] [35m[1mConsolidate compiler generated dependencies of target decawave_msg__rosidl_typesupport_introspection_c__pyext[0m
+[1.571s] [ 87%] Built target decawave_msg__rosidl_typesupport_c__pyext
+[1.573s] [100%] Built target decawave_msg__rosidl_typesupport_introspection_c__pyext
+[1.573s] [100%] Built target decawave_msg__rosidl_typesupport_fastrtps_c__pyext
+[1.770s] running egg_info
+[1.770s] writing decawave_msg.egg-info/PKG-INFO
+[1.771s] writing dependency_links to decawave_msg.egg-info/dependency_links.txt
+[1.771s] writing top-level names to decawave_msg.egg-info/top_level.txt
+[1.773s] reading manifest file 'decawave_msg.egg-info/SOURCES.txt'
+[1.773s] writing manifest file 'decawave_msg.egg-info/SOURCES.txt'
+[1.796s] [100%] Built target ament_cmake_python_build_decawave_msg_egg
+[1.807s] Invoked command in '/root/ros2_decawave/build/decawave_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_decawave/install/decawave_test_controller:/root/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /root/ros2_decawave/build/decawave_msg -- -j16 -l16
+[1.859s] Invoking command in '/root/ros2_decawave/build/decawave_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_decawave/install/decawave_test_controller:/root/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /root/ros2_decawave/build/decawave_msg
+[1.866s] -- Install configuration: ""
+[1.866s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/ament_index/resource_index/rosidl_interfaces/decawave_msg
+[1.866s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg
+[1.867s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg
+[1.867s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/range.h
+[1.867s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail
+[1.867s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__type_support.h
+[1.868s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__functions.c
+[1.868s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__struct.h
+[1.868s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__functions.h
+[1.868s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/rosidl_generator_c__visibility_control.h
+[1.868s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/environment/library_path.sh
+[1.869s] -- Installing: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/environment/library_path.dsv
+[1.869s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/lib/libdecawave_msg__rosidl_generator_c.so
+[1.869s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg
+[1.869s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg
+[1.869s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.869s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail
+[1.870s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__rosidl_typesupport_fastrtps_c.h
+[1.870s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/lib/libdecawave_msg__rosidl_typesupport_fastrtps_c.so
+[1.870s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg
+[1.870s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg
+[1.870s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/range.hpp
+[1.871s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail
+[1.871s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__builder.hpp
+[1.871s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__traits.hpp
+[1.871s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__struct.hpp
+[1.871s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg
+[1.871s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg
+[1.871s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail
+[1.871s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__rosidl_typesupport_fastrtps_cpp.hpp
+[1.871s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/dds_fastrtps
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/lib/libdecawave_msg__rosidl_typesupport_fastrtps_cpp.so
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__rosidl_typesupport_introspection_c.h
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__type_support.c
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/lib/libdecawave_msg__rosidl_typesupport_introspection_c.so
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/lib/libdecawave_msg__rosidl_typesupport_c.so
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail
+[1.872s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__type_support.cpp
+[1.873s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/include/decawave_msg/decawave_msg/msg/detail/range__rosidl_typesupport_introspection_cpp.hpp
+[1.873s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/lib/libdecawave_msg__rosidl_typesupport_introspection_cpp.so
+[1.873s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/lib/libdecawave_msg__rosidl_typesupport_cpp.so
+[1.873s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/environment/pythonpath.sh
+[1.873s] -- Installing: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/environment/pythonpath.dsv
+[1.873s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg-0.0.0-py3.10.egg-info
+[1.873s] -- Installing: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.873s] -- Installing: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.873s] -- Installing: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[1.873s] -- Installing: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg-0.0.0-py3.10.egg-info/top_level.txt
+[1.873s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg
+[1.873s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/libdecawave_msg__rosidl_generator_py.so
+[1.873s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/decawave_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.873s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/decawave_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.873s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/_decawave_msg_s.ep.rosidl_typesupport_c.c
+[1.874s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/decawave_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.874s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/_decawave_msg_s.ep.rosidl_typesupport_introspection_c.c
+[1.874s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/_decawave_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.874s] -- Installing: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/__init__.py
+[1.874s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/msg
+[1.874s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/msg/_range.py
+[1.874s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/msg/_range_s.c
+[1.874s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/msg/__init__.py
+[1.906s] Listing '/root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg'...
+[1.906s] Compiling '/root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/__init__.py'...
+[1.906s] Listing '/root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/msg'...
+[1.910s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/decawave_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.910s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/decawave_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.911s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/local/lib/python3.10/dist-packages/decawave_msg/decawave_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.911s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/lib/libdecawave_msg__rosidl_generator_py.so
+[1.911s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/msg/Range.idl
+[1.911s] -- Installing: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/msg/Range.msg
+[1.912s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/ament_index/resource_index/package_run_dependencies/decawave_msg
+[1.912s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/ament_index/resource_index/parent_prefix_path/decawave_msg
+[1.912s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/environment/ament_prefix_path.sh
+[1.912s] -- Installing: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/environment/ament_prefix_path.dsv
+[1.913s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/environment/path.sh
+[1.913s] -- Installing: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/environment/path.dsv
+[1.913s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/local_setup.bash
+[1.913s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/local_setup.sh
+[1.914s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/local_setup.zsh
+[1.914s] -- Installing: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/local_setup.dsv
+[1.914s] -- Installing: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/package.dsv
+[1.914s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/ament_index/resource_index/packages/decawave_msg
+[1.915s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/export_decawave_msg__rosidl_generator_cExport.cmake
+[1.915s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/export_decawave_msg__rosidl_generator_cExport-noconfig.cmake
+[1.915s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/export_decawave_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[1.915s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/export_decawave_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.915s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/export_decawave_msg__rosidl_generator_cppExport.cmake
+[1.915s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/export_decawave_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.915s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/export_decawave_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.915s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/decawave_msg__rosidl_typesupport_introspection_cExport.cmake
+[1.915s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/decawave_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.915s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/decawave_msg__rosidl_typesupport_cExport.cmake
+[1.915s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/decawave_msg__rosidl_typesupport_cExport-noconfig.cmake
+[1.915s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/decawave_msg__rosidl_typesupport_introspection_cppExport.cmake
+[1.916s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/decawave_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.916s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/decawave_msg__rosidl_typesupport_cppExport.cmake
+[1.916s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/decawave_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[1.916s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/export_decawave_msg__rosidl_generator_pyExport.cmake
+[1.916s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/export_decawave_msg__rosidl_generator_pyExport-noconfig.cmake
+[1.916s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/rosidl_cmake-extras.cmake
+[1.916s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.916s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.916s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.916s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/ament_cmake_export_targets-extras.cmake
+[1.916s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.917s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.920s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/decawave_msgConfig.cmake
+[1.921s] -- Up-to-date: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/cmake/decawave_msgConfig-version.cmake
+[1.921s] -- Installing: /root/ros2_decawave/install/decawave_msg/share/decawave_msg/package.xml
+[1.921s] Invoked command in '/root/ros2_decawave/build/decawave_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_decawave/install/decawave_test_controller:/root/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /root/ros2_decawave/build/decawave_msg

@@ -1,0 +1,4 @@
+source;share/decawave_interfaces/local_setup.bash
+source;share/decawave_interfaces/local_setup.dsv
+source;share/decawave_interfaces/local_setup.sh
+source;share/decawave_interfaces/local_setup.zsh

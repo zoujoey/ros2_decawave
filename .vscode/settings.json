@@ -1,0 +1,16 @@
+{
+    "python.analysis.extraPaths": [
+        "/root/ros2_ws/build/my_robot_controller",
+        "/root/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.autoComplete.extraPaths": [
+        "/root/ros2_ws/build/my_robot_controller",
+        "/root/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.configureOnOpen": true,
+    "cmake.sourceDirectory": "/root/ros2_decawave/src/decawave_interfaces"
+}
