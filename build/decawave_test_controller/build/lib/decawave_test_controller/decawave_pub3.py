@@ -18,7 +18,7 @@ class publishernode(Node):
         #Publisher Initialiser
         self.counter = 0
         self.n = n
-        self.id_map = {"9325":1,"D633":2,"9620":3,"919B":4,"CC2E":5, "872B":6, "9401":7 , "D721":8, "98A7":9}
+        self.id_map = {"9325":1,"D633":2,"9620":3,"919B":4,"CC2E":5}
         self.anchor_ids = anchor_ids
         self.anchor_id = anchor_id
         self.tag_id = tag_id
@@ -37,18 +37,18 @@ class publishernode(Node):
         dummy = 'D633[4.43,0.00,0.00]=2.60 9620[5.41,5.08,0.00]=2.74 919B[2.31,4.92,0.00]=4.35 CC2E[0.00,0.00,0.00]=6.23'
         try: 
             resp = self.ser.readline().decode().strip()
-            if len(resp)<100:
+            if len(resp)<105:
                 return dummy
-            elif len(resp)>105:
+            elif len(resp)>100:
                 return dummy
             return resp
         except:
             return dummy
         
     def parse_data(self, s):
-        if len(s)<100:
+        if len(s)<105:
             return None
-        elif len(s)>105:
+        elif len(s)>100:
             return None
         substrings = s.split()
         results = {}
@@ -79,7 +79,7 @@ def main(args = None):
     rclpy.init(args = args)
     anchor_ids = ["D633","9620","919B","CC2E"]
     n=4
-    node1 = publishernode(n,anchor_ids,'COM 18','D633','9325')
+    node1 = publishernode(n,anchor_ids,'/dev/ttyACM0','D633','9325')
     # node2 = publishernode(n,anchor_ids,'COM 18','9620','9325')
     # node3 = publishernode(n,anchor_ids,'COM 18','919B','9325')
     # node4 = publishernode(n,anchor_ids,'COM 18', 'CC2E','9325')

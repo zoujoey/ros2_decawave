@@ -1,0 +1,40 @@
+[0.391s] Invoking command in '/home/asrl/ros2_decawave/src/decawave_test_controller': AMENT_PREFIX_PATH=/home/asrl/ros2_decawave/install/decawave_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asrl/ros2_decawave/install/decawave_interfaces LD_LIBRARY_PATH=/home/asrl/ros2_decawave/install/decawave_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asrl/ros2_decawave/build/decawave_test_controller/prefix_override:/home/asrl/ros2_decawave/install/decawave_test_controller/lib/python3.8/site-packages:/home/asrl/ros2_decawave/install/decawave_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/decawave_test_controller build --build-base /home/asrl/ros2_decawave/build/decawave_test_controller/build install --record /home/asrl/ros2_decawave/build/decawave_test_controller/install.log --single-version-externally-managed
+[0.531s] running egg_info
+[0.532s] creating ../../build/decawave_test_controller/decawave_test_controller.egg-info
+[0.533s] writing manifest file '../../build/decawave_test_controller/decawave_test_controller.egg-info/SOURCES.txt'
+[0.534s] writing manifest file '../../build/decawave_test_controller/decawave_test_controller.egg-info/SOURCES.txt'
+[0.534s] running build
+[0.535s] running build_py
+[0.535s] creating /home/asrl/ros2_decawave/build/decawave_test_controller/build
+[0.535s] creating /home/asrl/ros2_decawave/build/decawave_test_controller/build/lib
+[0.535s] creating /home/asrl/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[0.535s] copying decawave_test_controller/decawave_pub1.py -> /home/asrl/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[0.535s] copying decawave_test_controller/decawave_sub2.py -> /home/asrl/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[0.535s] copying decawave_test_controller/decawave_origin.py -> /home/asrl/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[0.535s] copying decawave_test_controller/decawave_pub3.py -> /home/asrl/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[0.535s] copying decawave_test_controller/__init__.py -> /home/asrl/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[0.535s] copying decawave_test_controller/decawave_sub3.py -> /home/asrl/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[0.535s] copying decawave_test_controller/decawave_sub1.py -> /home/asrl/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[0.535s] copying decawave_test_controller/decawave_pub2.py -> /home/asrl/ros2_decawave/build/decawave_test_controller/build/lib/decawave_test_controller
+[0.535s] running install
+[0.535s] running install_lib
+[0.535s] creating /home/asrl/ros2_decawave/install/decawave_test_controller/lib/python3.8/site-packages/decawave_test_controller
+[0.536s] byte-compiling /home/asrl/ros2_decawave/install/decawave_test_controller/lib/python3.8/site-packages/decawave_test_controller/decawave_pub1.py to decawave_pub1.cpython-38.pyc
+[0.536s] byte-compiling /home/asrl/ros2_decawave/install/decawave_test_controller/lib/python3.8/site-packages/decawave_test_controller/decawave_sub2.py to decawave_sub2.cpython-38.pyc
+[0.537s] byte-compiling /home/asrl/ros2_decawave/install/decawave_test_controller/lib/python3.8/site-packages/decawave_test_controller/decawave_origin.py to decawave_origin.cpython-38.pyc
+[0.537s] byte-compiling /home/asrl/ros2_decawave/install/decawave_test_controller/lib/python3.8/site-packages/decawave_test_controller/decawave_pub3.py to decawave_pub3.cpython-38.pyc
+[0.538s] byte-compiling /home/asrl/ros2_decawave/install/decawave_test_controller/lib/python3.8/site-packages/decawave_test_controller/__init__.py to __init__.cpython-38.pyc
+[0.538s] byte-compiling /home/asrl/ros2_decawave/install/decawave_test_controller/lib/python3.8/site-packages/decawave_test_controller/decawave_sub3.py to decawave_sub3.cpython-38.pyc
+[0.538s] byte-compiling /home/asrl/ros2_decawave/install/decawave_test_controller/lib/python3.8/site-packages/decawave_test_controller/decawave_sub1.py to decawave_sub1.cpython-38.pyc
+[0.538s] byte-compiling /home/asrl/ros2_decawave/install/decawave_test_controller/lib/python3.8/site-packages/decawave_test_controller/decawave_pub2.py to decawave_pub2.cpython-38.pyc
+[0.539s] running install_data
+[0.539s] creating /home/asrl/ros2_decawave/install/decawave_test_controller/share/ament_index
+[0.539s] creating /home/asrl/ros2_decawave/install/decawave_test_controller/share/ament_index/resource_index
+[0.539s] creating /home/asrl/ros2_decawave/install/decawave_test_controller/share/ament_index/resource_index/packages
+[0.539s] copying resource/decawave_test_controller -> /home/asrl/ros2_decawave/install/decawave_test_controller/share/ament_index/resource_index/packages
+[0.539s] copying package.xml -> /home/asrl/ros2_decawave/install/decawave_test_controller/share/decawave_test_controller
+[0.539s] running install_egg_info
+[0.540s] Copying ../../build/decawave_test_controller/decawave_test_controller.egg-info to /home/asrl/ros2_decawave/install/decawave_test_controller/lib/python3.8/site-packages/decawave_test_controller-0.0.0-py3.8.egg-info
+[0.540s] running install_scripts
+[0.551s] writing list of installed files to '/home/asrl/ros2_decawave/build/decawave_test_controller/install.log'
+[0.564s] Invoked command in '/home/asrl/ros2_decawave/src/decawave_test_controller' returned '0': AMENT_PREFIX_PATH=/home/asrl/ros2_decawave/install/decawave_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asrl/ros2_decawave/install/decawave_interfaces LD_LIBRARY_PATH=/home/asrl/ros2_decawave/install/decawave_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asrl/ros2_decawave/build/decawave_test_controller/prefix_override:/home/asrl/ros2_decawave/install/decawave_test_controller/lib/python3.8/site-packages:/home/asrl/ros2_decawave/install/decawave_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/decawave_test_controller build --build-base /home/asrl/ros2_decawave/build/decawave_test_controller/build install --record /home/asrl/ros2_decawave/build/decawave_test_controller/install.log --single-version-externally-managed

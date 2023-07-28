@@ -5,14 +5,13 @@
 #ifndef DECAWAVE_INTERFACES__MSG__DETAIL__DECA_RANGE_B__STRUCT_HPP_
 #define DECAWAVE_INTERFACES__MSG__DETAIL__DECA_RANGE_B__STRUCT_HPP_
 
+#include <rosidl_runtime_cpp/bounded_vector.hpp>
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <array>
 #include <memory>
 #include <string>
 #include <vector>
-
-#include "rosidl_runtime_cpp/bounded_vector.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 // Include directives for member types
@@ -68,10 +67,10 @@ struct DecaRangeB_
     std_msgs::msg::Header_<ContainerAllocator>;
   _header_type header;
   using _from_id_type =
-    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
   _from_id_type from_id;
   using _to_id_type =
-    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
   _to_id_type to_id;
   using _range_type =
     float;
@@ -85,13 +84,13 @@ struct DecaRangeB_
     return *this;
   }
   Type & set__from_id(
-    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
   {
     this->from_id = _arg;
     return *this;
   }
   Type & set__to_id(
-    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
   {
     this->to_id = _arg;
     return *this;

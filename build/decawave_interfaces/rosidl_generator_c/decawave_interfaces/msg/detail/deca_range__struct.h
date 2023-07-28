@@ -21,7 +21,7 @@ extern "C"
 // Member 'header'
 #include "std_msgs/msg/detail/header__struct.h"
 
-/// Struct defined in msg/DecaRange in the package decawave_interfaces.
+// Struct defined in msg/DecaRange in the package decawave_interfaces.
 typedef struct decawave_interfaces__msg__DecaRange
 {
   std_msgs__msg__Header header;

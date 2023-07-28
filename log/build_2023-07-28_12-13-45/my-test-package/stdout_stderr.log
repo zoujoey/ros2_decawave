@@ -1,0 +1,4 @@
+running develop
+running egg_info
+writing manifest file 'my_test_package.egg-info/SOURCES.txt'
+running build_ext

@@ -36,7 +36,7 @@ class publishernode(Node):
             resp = self.ser.readline().decode().strip()
             if len(resp)<100:
                 return dummy
-            elif len(resp)>105:
+            elif len(resp)>140:
                 return dummy
             return resp
         except:
@@ -55,6 +55,6 @@ def main(args = None):
     rclpy.init(args = args)
     anchor_ids = ["D633","9620","919B","CC2E"]
     n=4
-    node = publishernode(n,anchor_ids,'COM 18')
+    node = publishernode(n,anchor_ids,'/dev/ttyACM0')
     rclpy.spin(node)
     rclpy.shutdown()

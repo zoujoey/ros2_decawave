@@ -5,11 +5,10 @@
 #ifndef DECAWAVE_INTERFACES__MSG__DETAIL__DECA_RANGE_B__BUILDER_HPP_
 #define DECAWAVE_INTERFACES__MSG__DETAIL__DECA_RANGE_B__BUILDER_HPP_
 
+#include "decawave_interfaces/msg/detail/deca_range_b__struct.hpp"
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
-
-#include "decawave_interfaces/msg/detail/deca_range_b__struct.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace decawave_interfaces

@@ -1,0 +1,12 @@
+running develop
+running egg_info
+creating decawave_test_controller.egg-info
+writing manifest file 'decawave_test_controller.egg-info/SOURCES.txt'
+writing manifest file 'decawave_test_controller.egg-info/SOURCES.txt'
+running build_ext
+running install_data
+creating /home/asrl/ros2_decawave/install/decawave_test_controller/share/ament_index
+creating /home/asrl/ros2_decawave/install/decawave_test_controller/share/ament_index/resource_index
+creating /home/asrl/ros2_decawave/install/decawave_test_controller/share/ament_index/resource_index/packages
+copying resource/decawave_test_controller -> /home/asrl/ros2_decawave/install/decawave_test_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/asrl/ros2_decawave/install/decawave_test_controller/share/decawave_test_controller

@@ -16,7 +16,11 @@ decawave_test_controller/decawave_pub3.py
 decawave_test_controller/decawave_sub1.py
 decawave_test_controller/decawave_sub2.py
 decawave_test_controller/decawave_sub3.py
+decawave_test_controller.egg-info/PKG-INFO
+decawave_test_controller.egg-info/SOURCES.txt
+decawave_test_controller.egg-info/dependency_links.txt
+decawave_test_controller.egg-info/entry_points.txt
+decawave_test_controller.egg-info/requires.txt
+decawave_test_controller.egg-info/top_level.txt
+decawave_test_controller.egg-info/zip-safe
 resource/decawave_test_controller
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

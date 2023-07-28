@@ -1,0 +1,12 @@
+[0.398s] Invoking command in '/home/asrl/ros2_decawave/decaenv/lib/python3.10/site-packages/pkg_resources/tests/data/my-test-package-source': PYTHONPATH=/home/asrl/ros2_decawave/build/my-test-package/prefix_override:/home/asrl/ros2_decawave/install/my-test-package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../../../build/my-test-package build --build-base /home/asrl/ros2_decawave/build/my-test-package/build install --record /home/asrl/ros2_decawave/build/my-test-package/install.log --single-version-externally-managed
+[0.546s] running egg_info
+[0.546s] creating ../../../../../../../../build/my-test-package/my_test_package.egg-info
+[0.547s] writing manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[0.548s] writing manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[0.548s] running build
+[0.548s] running install
+[0.548s] running install_egg_info
+[0.550s] Copying ../../../../../../../../build/my-test-package/my_test_package.egg-info to /home/asrl/ros2_decawave/install/my-test-package/lib/python3.8/site-packages/my_test_package-1.0-py3.8.egg-info
+[0.550s] running install_scripts
+[0.561s] writing list of installed files to '/home/asrl/ros2_decawave/build/my-test-package/install.log'
+[0.573s] Invoked command in '/home/asrl/ros2_decawave/decaenv/lib/python3.10/site-packages/pkg_resources/tests/data/my-test-package-source' returned '0': PYTHONPATH=/home/asrl/ros2_decawave/build/my-test-package/prefix_override:/home/asrl/ros2_decawave/install/my-test-package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../../../build/my-test-package build --build-base /home/asrl/ros2_decawave/build/my-test-package/build install --record /home/asrl/ros2_decawave/build/my-test-package/install.log --single-version-externally-managed

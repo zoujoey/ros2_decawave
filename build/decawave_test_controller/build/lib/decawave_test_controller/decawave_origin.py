@@ -37,7 +37,7 @@ def get_dist():
 
 
 try:
-    ser = serial.Serial(port='COM18', baudrate=115200, timeout=1) #COM port may be different for Linux
+    ser = serial.Serial(port='/dev/ttyACM0', baudrate=115200, timeout=1) #COM port may be different for Linux
     print(ser)
 except:
     ser = ''
@@ -64,7 +64,7 @@ labels = ["D633","9620","919B","CC2E"] # Labels for the lines
 for i in range(n):
     line, = ax.plot(x, y[i], label=labels[i])
     lines.append(line)
-ax.set_autoscaley_on(True)
+ax.set_autoscale_on(True)
 
 # Add a legend to the plot
 ax.legend()

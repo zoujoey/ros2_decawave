@@ -1,0 +1,6 @@
+[0.502s] Invoking command in '/home/asrl/ros2_decawave/build/my-test-package': PYTHONPATH=/home/asrl/ros2_decawave/build/my-test-package/prefix_override:/home/asrl/ros2_decawave/install/my-test-package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/asrl/ros2_decawave/build/my-test-package/build --no-deps
+[0.652s] running develop
+[0.736s] running egg_info
+[0.737s] writing manifest file 'my_test_package.egg-info/SOURCES.txt'
+[0.757s] running build_ext
+[0.774s] Invoked command in '/home/asrl/ros2_decawave/build/my-test-package' returned '0': PYTHONPATH=/home/asrl/ros2_decawave/build/my-test-package/prefix_override:/home/asrl/ros2_decawave/install/my-test-package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/asrl/ros2_decawave/build/my-test-package/build --no-deps

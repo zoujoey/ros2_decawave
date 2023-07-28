@@ -24,7 +24,7 @@ extern "C"
 // Member 'to_id'
 #include "rosidl_runtime_c/string.h"
 
-/// Struct defined in msg/DecaRangeB in the package decawave_interfaces.
+// Struct defined in msg/DecaRangeB in the package decawave_interfaces.
 typedef struct decawave_interfaces__msg__DecaRangeB
 {
   std_msgs__msg__Header header;

@@ -1,8 +1,8 @@
-# Install script for directory: /root/ros2_decawave/build/decawave_interfaces/decawave_interfaces__py
+# Install script for directory: /home/asrl/ros2_decawave/build/decawave_interfaces/decawave_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/root/ros2_decawave/install/decawave_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/asrl/ros2_decawave/install/decawave_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,10 +35,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 

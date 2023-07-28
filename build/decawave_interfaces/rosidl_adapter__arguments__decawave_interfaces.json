@@ -1,7 +1,7 @@
 {
   "package_name": "decawave_interfaces",
   "non_idl_tuples": [
-    "/root/ros2_decawave/src/decawave_interfaces:msg/DecaRange.msg",
-    "/root/ros2_decawave/src/decawave_interfaces:msg/DecaRangeB.msg"
+    "/home/asrl/ros2_decawave/src/decawave_interfaces:msg/DecaRange.msg",
+    "/home/asrl/ros2_decawave/src/decawave_interfaces:msg/DecaRangeB.msg"
   ]
 }

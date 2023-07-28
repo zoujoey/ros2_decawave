@@ -55,6 +55,6 @@ def main(args = None):
     rclpy.init(args = args)
     anchor_ids = ["D633","9620","919B","CC2E"]
     n=4
-    node = publishernode(n,anchor_ids,'COM 18')
+    node = publishernode(n,anchor_ids,'/dev/ttyACM0')
     rclpy.spin(node)
     rclpy.shutdown()

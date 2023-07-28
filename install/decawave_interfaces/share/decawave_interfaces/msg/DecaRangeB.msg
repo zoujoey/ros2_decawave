@@ -1,4 +1,1 @@
-std_msgs/Header header
-string from_id
-string to_id
-float32 range
+/home/asrl/ros2_decawave/src/decawave_interfaces/msg/DecaRangeB.msg

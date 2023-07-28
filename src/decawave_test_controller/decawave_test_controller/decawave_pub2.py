@@ -53,6 +53,10 @@ class publishernode(Node):
         results = {}
         for substring in substrings:
             tag = substring[:4]
+            if tag=='le_u': 
+                pass
+            elif tag == 'est[':
+                pass
             values_str = substring.split('=')[0]
             values_str1 = values_str.split('[')[1]
             values_str1 = values_str1.strip(']')
@@ -79,7 +83,7 @@ def main(args = None):
     rclpy.init(args = args)
     anchor_ids = ["D633","9620","919B","CC2E"]
     n=4
-    node1 = publishernode(n,anchor_ids,'COM 18','D633','9325')
+    node1 = publishernode(n,anchor_ids,'/dev/ttyACM0','D633','9325')
     # node2 = publishernode(n,anchor_ids,'COM 18','9620','9325')
     # node3 = publishernode(n,anchor_ids,'COM 18','919B','9325')
     # node4 = publishernode(n,anchor_ids,'COM 18', 'CC2E','9325')

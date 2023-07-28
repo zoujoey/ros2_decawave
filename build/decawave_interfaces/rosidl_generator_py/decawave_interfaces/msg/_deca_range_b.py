@@ -5,10 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
-import math  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -135,7 +131,7 @@ class DecaRangeB(metaclass=Metaclass_DecaRangeB):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -149,7 +145,7 @@ class DecaRangeB(metaclass=Metaclass_DecaRangeB):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @builtins.property
+    @property
     def from_id(self):
         """Message field 'from_id'."""
         return self._from_id
@@ -162,7 +158,7 @@ class DecaRangeB(metaclass=Metaclass_DecaRangeB):
                 "The 'from_id' field must be of type 'str'"
         self._from_id = value
 
-    @builtins.property
+    @property
     def to_id(self):
         """Message field 'to_id'."""
         return self._to_id
@@ -175,7 +171,7 @@ class DecaRangeB(metaclass=Metaclass_DecaRangeB):
                 "The 'to_id' field must be of type 'str'"
         self._to_id = value
 
-    @builtins.property  # noqa: A003
+    @property  # noqa: A003
     def range(self):  # noqa: A003
         """Message field 'range'."""
         return self._range
@@ -186,6 +182,4 @@ class DecaRangeB(metaclass=Metaclass_DecaRangeB):
             assert \
                 isinstance(value, float), \
                 "The 'range' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'range' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._range = value

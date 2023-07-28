@@ -5,10 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
-import math  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -201,7 +197,7 @@ class DecaRange(metaclass=Metaclass_DecaRange):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -215,7 +211,7 @@ class DecaRange(metaclass=Metaclass_DecaRange):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @builtins.property  # noqa: A003
+    @property  # noqa: A003
     def range(self):  # noqa: A003
         """Message field 'range'."""
         return self._range
@@ -226,11 +222,9 @@ class DecaRange(metaclass=Metaclass_DecaRange):
             assert \
                 isinstance(value, float), \
                 "The 'range' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'range' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._range = value
 
-    @builtins.property
+    @property
     def from_id(self):
         """Message field 'from_id'."""
         return self._from_id
@@ -245,7 +239,7 @@ class DecaRange(metaclass=Metaclass_DecaRange):
                 "The 'from_id' field must be an unsigned integer in [0, 18446744073709551615]"
         self._from_id = value
 
-    @builtins.property
+    @property
     def to_id(self):
         """Message field 'to_id'."""
         return self._to_id
@@ -260,7 +254,7 @@ class DecaRange(metaclass=Metaclass_DecaRange):
                 "The 'to_id' field must be an unsigned integer in [0, 18446744073709551615]"
         self._to_id = value
 
-    @builtins.property
+    @property
     def covariance(self):
         """Message field 'covariance'."""
         return self._covariance
@@ -271,11 +265,9 @@ class DecaRange(metaclass=Metaclass_DecaRange):
             assert \
                 isinstance(value, float), \
                 "The 'covariance' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'covariance' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._covariance = value
 
-    @builtins.property
+    @property
     def tx1(self):
         """Message field 'tx1'."""
         return self._tx1
@@ -290,7 +282,7 @@ class DecaRange(metaclass=Metaclass_DecaRange):
                 "The 'tx1' field must be an unsigned integer in [0, 18446744073709551615]"
         self._tx1 = value
 
-    @builtins.property
+    @property
     def rx1(self):
         """Message field 'rx1'."""
         return self._rx1
@@ -305,7 +297,7 @@ class DecaRange(metaclass=Metaclass_DecaRange):
                 "The 'rx1' field must be an unsigned integer in [0, 18446744073709551615]"
         self._rx1 = value
 
-    @builtins.property
+    @property
     def tx2(self):
         """Message field 'tx2'."""
         return self._tx2
@@ -320,7 +312,7 @@ class DecaRange(metaclass=Metaclass_DecaRange):
                 "The 'tx2' field must be an unsigned integer in [0, 18446744073709551615]"
         self._tx2 = value
 
-    @builtins.property
+    @property
     def rx2(self):
         """Message field 'rx2'."""
         return self._rx2
@@ -335,7 +327,7 @@ class DecaRange(metaclass=Metaclass_DecaRange):
                 "The 'rx2' field must be an unsigned integer in [0, 18446744073709551615]"
         self._rx2 = value
 
-    @builtins.property
+    @property
     def tx3(self):
         """Message field 'tx3'."""
         return self._tx3
@@ -350,7 +342,7 @@ class DecaRange(metaclass=Metaclass_DecaRange):
                 "The 'tx3' field must be an unsigned integer in [0, 18446744073709551615]"
         self._tx3 = value
 
-    @builtins.property
+    @property
     def rx3(self):
         """Message field 'rx3'."""
         return self._rx3
@@ -365,7 +357,7 @@ class DecaRange(metaclass=Metaclass_DecaRange):
                 "The 'rx3' field must be an unsigned integer in [0, 18446744073709551615]"
         self._rx3 = value
 
-    @builtins.property
+    @property
     def fpp1(self):
         """Message field 'fpp1'."""
         return self._fpp1
@@ -376,11 +368,9 @@ class DecaRange(metaclass=Metaclass_DecaRange):
             assert \
                 isinstance(value, float), \
                 "The 'fpp1' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'fpp1' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._fpp1 = value
 
-    @builtins.property
+    @property
     def fpp2(self):
         """Message field 'fpp2'."""
         return self._fpp2
@@ -391,11 +381,9 @@ class DecaRange(metaclass=Metaclass_DecaRange):
             assert \
                 isinstance(value, float), \
                 "The 'fpp2' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'fpp2' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._fpp2 = value
 
-    @builtins.property
+    @property
     def skew1(self):
         """Message field 'skew1'."""
         return self._skew1
@@ -406,11 +394,9 @@ class DecaRange(metaclass=Metaclass_DecaRange):
             assert \
                 isinstance(value, float), \
                 "The 'skew1' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'skew1' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._skew1 = value
 
-    @builtins.property
+    @property
     def skew2(self):
         """Message field 'skew2'."""
         return self._skew2
@@ -421,6 +407,4 @@ class DecaRange(metaclass=Metaclass_DecaRange):
             assert \
                 isinstance(value, float), \
                 "The 'skew2' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'skew2' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._skew2 = value

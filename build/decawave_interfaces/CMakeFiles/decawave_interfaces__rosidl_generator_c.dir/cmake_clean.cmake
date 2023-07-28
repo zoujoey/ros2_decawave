@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/decawave_interfaces__rosidl_generator_c.dir/rosidl_generator_c/decawave_interfaces/msg/detail/deca_range__functions.c.o"
-  "CMakeFiles/decawave_interfaces__rosidl_generator_c.dir/rosidl_generator_c/decawave_interfaces/msg/detail/deca_range__functions.c.o.d"
   "CMakeFiles/decawave_interfaces__rosidl_generator_c.dir/rosidl_generator_c/decawave_interfaces/msg/detail/deca_range_b__functions.c.o"
-  "CMakeFiles/decawave_interfaces__rosidl_generator_c.dir/rosidl_generator_c/decawave_interfaces/msg/detail/deca_range_b__functions.c.o.d"
   "libdecawave_interfaces__rosidl_generator_c.pdb"
   "libdecawave_interfaces__rosidl_generator_c.so"
   "rosidl_generator_c/decawave_interfaces/msg/deca_range.h"
