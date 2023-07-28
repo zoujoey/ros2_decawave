@@ -20,7 +20,7 @@ class publishernode(Node):
         self.n = n
         self.anchor_ids = anchor_ids
         self.decawave_publisher1 = self.create_publisher(
-            String, "Dist4", 10)
+            String, "/Wifi/Channel_Three", 10)
         timer_period = 0.1  # seconds
         self.timer = self.create_timer(timer_period, self.publish_data)
         self.time = time.time()
