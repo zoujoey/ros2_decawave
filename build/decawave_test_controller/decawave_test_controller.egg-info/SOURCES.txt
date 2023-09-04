@@ -13,9 +13,12 @@ decawave_test_controller/decawave_origin.py
 decawave_test_controller/decawave_pub1.py
 decawave_test_controller/decawave_pub2.py
 decawave_test_controller/decawave_pub3.py
+decawave_test_controller/decawave_pub4.py
+decawave_test_controller/decawave_pub5.py
 decawave_test_controller/decawave_sub1.py
 decawave_test_controller/decawave_sub2.py
 decawave_test_controller/decawave_sub3.py
+decawave_test_controller/decawave_sub4.py
 decawave_test_controller.egg-info/PKG-INFO
 decawave_test_controller.egg-info/SOURCES.txt
 decawave_test_controller.egg-info/dependency_links.txt

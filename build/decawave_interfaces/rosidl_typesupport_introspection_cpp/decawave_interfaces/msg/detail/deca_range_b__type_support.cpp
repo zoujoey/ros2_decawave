@@ -37,7 +37,7 @@ void DecaRangeB_fini_function(void * message_memory)
   typed_message->~DecaRangeB();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember DecaRangeB_message_member_array[4] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember DecaRangeB_message_member_array[5] = {
   {
     "header",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
@@ -54,14 +54,14 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember DecaRangeB_me
     nullptr  // resize(index) function pointer
   },
   {
-    "from_id",  // name
+    "tag_id",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(decawave_interfaces::msg::DecaRangeB, from_id),  // bytes offset in struct
+    offsetof(decawave_interfaces::msg::DecaRangeB, tag_id),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -69,29 +69,44 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember DecaRangeB_me
     nullptr  // resize(index) function pointer
   },
   {
-    "to_id",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(decawave_interfaces::msg::DecaRangeB, to_id),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "range",  // name
+    "x1",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(decawave_interfaces::msg::DecaRangeB, range),  // bytes offset in struct
+    offsetof(decawave_interfaces::msg::DecaRangeB, x1),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "y1",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces::msg::DecaRangeB, y1),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "z1",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces::msg::DecaRangeB, z1),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -103,7 +118,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember DecaRangeB_me
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers DecaRangeB_message_members = {
   "decawave_interfaces::msg",  // message namespace
   "DecaRangeB",  // message name
-  4,  // number of fields
+  5,  // number of fields
   sizeof(decawave_interfaces::msg::DecaRangeB),
   DecaRangeB_message_member_array,  // message members
   DecaRangeB_init_function,  // function to initialize message memory (memory has to be allocated)

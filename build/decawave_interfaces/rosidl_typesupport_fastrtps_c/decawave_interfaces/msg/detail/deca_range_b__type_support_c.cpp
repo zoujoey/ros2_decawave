@@ -34,8 +34,8 @@ extern "C"
 {
 #endif
 
-#include "rosidl_runtime_c/string.h"  // from_id, to_id
-#include "rosidl_runtime_c/string_functions.h"  // from_id, to_id
+#include "rosidl_runtime_c/string.h"  // tag_id
+#include "rosidl_runtime_c/string_functions.h"  // tag_id
 #include "std_msgs/msg/detail/header__functions.h"  // header
 
 // forward declare type support functions
@@ -79,9 +79,9 @@ static bool _DecaRangeB__cdr_serialize(
     }
   }
 
-  // Field name: from_id
+  // Field name: tag_id
   {
-    const rosidl_runtime_c__String * str = &ros_message->from_id;
+    const rosidl_runtime_c__String * str = &ros_message->tag_id;
     if (str->capacity == 0 || str->capacity <= str->size) {
       fprintf(stderr, "string capacity not greater than size\n");
       return false;
@@ -93,23 +93,19 @@ static bool _DecaRangeB__cdr_serialize(
     cdr << str->data;
   }
 
-  // Field name: to_id
+  // Field name: x1
   {
-    const rosidl_runtime_c__String * str = &ros_message->to_id;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
+    cdr << ros_message->x1;
   }
 
-  // Field name: range
+  // Field name: y1
   {
-    cdr << ros_message->range;
+    cdr << ros_message->y1;
+  }
+
+  // Field name: z1
+  {
+    cdr << ros_message->z1;
   }
 
   return true;
@@ -138,41 +134,35 @@ static bool _DecaRangeB__cdr_deserialize(
     }
   }
 
-  // Field name: from_id
+  // Field name: tag_id
   {
     std::string tmp;
     cdr >> tmp;
-    if (!ros_message->from_id.data) {
-      rosidl_runtime_c__String__init(&ros_message->from_id);
+    if (!ros_message->tag_id.data) {
+      rosidl_runtime_c__String__init(&ros_message->tag_id);
     }
     bool succeeded = rosidl_runtime_c__String__assign(
-      &ros_message->from_id,
+      &ros_message->tag_id,
       tmp.c_str());
     if (!succeeded) {
-      fprintf(stderr, "failed to assign string into field 'from_id'\n");
+      fprintf(stderr, "failed to assign string into field 'tag_id'\n");
       return false;
     }
   }
 
-  // Field name: to_id
+  // Field name: x1
   {
-    std::string tmp;
-    cdr >> tmp;
-    if (!ros_message->to_id.data) {
-      rosidl_runtime_c__String__init(&ros_message->to_id);
-    }
-    bool succeeded = rosidl_runtime_c__String__assign(
-      &ros_message->to_id,
-      tmp.c_str());
-    if (!succeeded) {
-      fprintf(stderr, "failed to assign string into field 'to_id'\n");
-      return false;
-    }
+    cdr >> ros_message->x1;
   }
 
-  // Field name: range
+  // Field name: y1
   {
-    cdr >> ros_message->range;
+    cdr >> ros_message->y1;
+  }
+
+  // Field name: z1
+  {
+    cdr >> ros_message->z1;
   }
 
   return true;
@@ -196,17 +186,25 @@ size_t get_serialized_size_decawave_interfaces__msg__DecaRangeB(
 
   current_alignment += get_serialized_size_std_msgs__msg__Header(
     &(ros_message->header), current_alignment);
-  // field.name from_id
+  // field.name tag_id
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->from_id.size + 1);
-  // field.name to_id
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->to_id.size + 1);
-  // field.name range
+    (ros_message->tag_id.size + 1);
+  // field.name x1
   {
-    size_t item_size = sizeof(ros_message->range);
+    size_t item_size = sizeof(ros_message->x1);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name y1
+  {
+    size_t item_size = sizeof(ros_message->y1);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name z1
+  {
+    size_t item_size = sizeof(ros_message->z1);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -245,7 +243,7 @@ size_t max_serialized_size_decawave_interfaces__msg__DecaRangeB(
         full_bounded, current_alignment);
     }
   }
-  // member: from_id
+  // member: tag_id
   {
     size_t array_size = 1;
 
@@ -256,18 +254,21 @@ size_t max_serialized_size_decawave_interfaces__msg__DecaRangeB(
         1;
     }
   }
-  // member: to_id
+  // member: x1
   {
     size_t array_size = 1;
 
-    full_bounded = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: range
+  // member: y1
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: z1
   {
     size_t array_size = 1;
 

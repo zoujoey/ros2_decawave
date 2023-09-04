@@ -27,6 +27,7 @@ class publishernode(Node):
         timer_period = 0.1  # seconds
         self.timer = self.create_timer(timer_period, self.publish_data)
         self.time = time.time()
+        self.resp = ''
     
     def send_cmd(self, cmd):#Sending les cmd to port
         self.ser.write(cmd + b'\r\n')
@@ -37,23 +38,29 @@ class publishernode(Node):
         dummy = 'D633[4.43,0.00,0.00]=2.60 9620[5.41,5.08,0.00]=2.74 919B[2.31,4.92,0.00]=4.35 CC2E[0.00,0.00,0.00]=6.23'
         try: 
             resp = self.ser.readline().decode().strip()
-            if len(resp)<105:
+            self.resp = resp
+            if len(resp)>140:
                 return dummy
-            elif len(resp)>100:
+            elif len(resp)<100:
                 return dummy
             return resp
         except:
             return dummy
         
     def parse_data(self, s):
-        if len(s)<105:
+        if len(s)>140:
             return None
-        elif len(s)>100:
+        elif len(s)<100:
             return None
         substrings = s.split()
         results = {}
         for substring in substrings:
+            self.get_logger().info(substring)
             tag = substring[:4]
+            if tag == "le_u":
+                continue
+            elif tag == "est[":
+                continue
             values_str = substring.split('=')[0]
             values_str1 = values_str.split('[')[1]
             values_str1 = values_str1.strip(']')

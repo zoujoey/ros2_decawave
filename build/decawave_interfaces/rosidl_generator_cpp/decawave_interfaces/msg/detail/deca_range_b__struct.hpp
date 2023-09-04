@@ -42,23 +42,24 @@ struct DecaRangeB_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->from_id = "";
-      this->to_id = "";
-      this->range = 0.0f;
+      this->tag_id = "";
+      this->x1 = 0.0f;
+      this->y1 = 0.0f;
+      this->z1 = 0.0f;
     }
   }
 
   explicit DecaRangeB_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   : header(_alloc, _init),
-    from_id(_alloc),
-    to_id(_alloc)
+    tag_id(_alloc)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->from_id = "";
-      this->to_id = "";
-      this->range = 0.0f;
+      this->tag_id = "";
+      this->x1 = 0.0f;
+      this->y1 = 0.0f;
+      this->z1 = 0.0f;
     }
   }
 
@@ -66,15 +67,18 @@ struct DecaRangeB_
   using _header_type =
     std_msgs::msg::Header_<ContainerAllocator>;
   _header_type header;
-  using _from_id_type =
+  using _tag_id_type =
     std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
-  _from_id_type from_id;
-  using _to_id_type =
-    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
-  _to_id_type to_id;
-  using _range_type =
+  _tag_id_type tag_id;
+  using _x1_type =
     float;
-  _range_type range;
+  _x1_type x1;
+  using _y1_type =
+    float;
+  _y1_type y1;
+  using _z1_type =
+    float;
+  _z1_type z1;
 
   // setters for named parameter idiom
   Type & set__header(
@@ -83,22 +87,28 @@ struct DecaRangeB_
     this->header = _arg;
     return *this;
   }
-  Type & set__from_id(
+  Type & set__tag_id(
     const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
   {
-    this->from_id = _arg;
+    this->tag_id = _arg;
     return *this;
   }
-  Type & set__to_id(
-    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
-  {
-    this->to_id = _arg;
-    return *this;
-  }
-  Type & set__range(
+  Type & set__x1(
     const float & _arg)
   {
-    this->range = _arg;
+    this->x1 = _arg;
+    return *this;
+  }
+  Type & set__y1(
+    const float & _arg)
+  {
+    this->y1 = _arg;
+    return *this;
+  }
+  Type & set__z1(
+    const float & _arg)
+  {
+    this->z1 = _arg;
     return *this;
   }
 
@@ -147,13 +157,16 @@ struct DecaRangeB_
     if (this->header != other.header) {
       return false;
     }
-    if (this->from_id != other.from_id) {
+    if (this->tag_id != other.tag_id) {
       return false;
     }
-    if (this->to_id != other.to_id) {
+    if (this->x1 != other.x1) {
       return false;
     }
-    if (this->range != other.range) {
+    if (this->y1 != other.y1) {
+      return false;
+    }
+    if (this->z1 != other.z1) {
       return false;
     }
     return true;

@@ -58,22 +58,25 @@ class DecaRangeB(metaclass=Metaclass_DecaRangeB):
 
     __slots__ = [
         '_header',
-        '_from_id',
-        '_to_id',
-        '_range',
+        '_tag_id',
+        '_x1',
+        '_y1',
+        '_z1',
     ]
 
     _fields_and_field_types = {
         'header': 'std_msgs/Header',
-        'from_id': 'string',
-        'to_id': 'string',
-        'range': 'float',
+        'tag_id': 'string',
+        'x1': 'float',
+        'y1': 'float',
+        'z1': 'float',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Header'),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
-        rosidl_parser.definition.UnboundedString(),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
     )
 
@@ -83,9 +86,10 @@ class DecaRangeB(metaclass=Metaclass_DecaRangeB):
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         from std_msgs.msg import Header
         self.header = kwargs.get('header', Header())
-        self.from_id = kwargs.get('from_id', str())
-        self.to_id = kwargs.get('to_id', str())
-        self.range = kwargs.get('range', float())
+        self.tag_id = kwargs.get('tag_id', str())
+        self.x1 = kwargs.get('x1', float())
+        self.y1 = kwargs.get('y1', float())
+        self.z1 = kwargs.get('z1', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -118,11 +122,13 @@ class DecaRangeB(metaclass=Metaclass_DecaRangeB):
             return False
         if self.header != other.header:
             return False
-        if self.from_id != other.from_id:
+        if self.tag_id != other.tag_id:
             return False
-        if self.to_id != other.to_id:
+        if self.x1 != other.x1:
             return False
-        if self.range != other.range:
+        if self.y1 != other.y1:
+            return False
+        if self.z1 != other.z1:
             return False
         return True
 
@@ -146,40 +152,53 @@ class DecaRangeB(metaclass=Metaclass_DecaRangeB):
         self._header = value
 
     @property
-    def from_id(self):
-        """Message field 'from_id'."""
-        return self._from_id
+    def tag_id(self):
+        """Message field 'tag_id'."""
+        return self._tag_id
 
-    @from_id.setter
-    def from_id(self, value):
+    @tag_id.setter
+    def tag_id(self, value):
         if __debug__:
             assert \
                 isinstance(value, str), \
-                "The 'from_id' field must be of type 'str'"
-        self._from_id = value
+                "The 'tag_id' field must be of type 'str'"
+        self._tag_id = value
 
     @property
-    def to_id(self):
-        """Message field 'to_id'."""
-        return self._to_id
+    def x1(self):
+        """Message field 'x1'."""
+        return self._x1
 
-    @to_id.setter
-    def to_id(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, str), \
-                "The 'to_id' field must be of type 'str'"
-        self._to_id = value
-
-    @property  # noqa: A003
-    def range(self):  # noqa: A003
-        """Message field 'range'."""
-        return self._range
-
-    @range.setter  # noqa: A003
-    def range(self, value):  # noqa: A003
+    @x1.setter
+    def x1(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'range' field must be of type 'float'"
-        self._range = value
+                "The 'x1' field must be of type 'float'"
+        self._x1 = value
+
+    @property
+    def y1(self):
+        """Message field 'y1'."""
+        return self._y1
+
+    @y1.setter
+    def y1(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'y1' field must be of type 'float'"
+        self._y1 = value
+
+    @property
+    def z1(self):
+        """Message field 'z1'."""
+        return self._z1
+
+    @z1.setter
+    def z1(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'z1' field must be of type 'float'"
+        self._z1 = value

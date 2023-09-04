@@ -17,8 +17,7 @@
 #include "std_msgs/msg/header.h"
 // Member `header`
 #include "std_msgs/msg/detail/header__rosidl_typesupport_introspection_c.h"
-// Member `from_id`
-// Member `to_id`
+// Member `tag_id`
 #include "rosidl_runtime_c/string_functions.h"
 
 #ifdef __cplusplus
@@ -40,7 +39,7 @@ void DecaRangeB__rosidl_typesupport_introspection_c__DecaRangeB_fini_function(vo
   decawave_interfaces__msg__DecaRangeB__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember DecaRangeB__rosidl_typesupport_introspection_c__DecaRangeB_message_member_array[4] = {
+static rosidl_typesupport_introspection_c__MessageMember DecaRangeB__rosidl_typesupport_introspection_c__DecaRangeB_message_member_array[5] = {
   {
     "header",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -57,14 +56,14 @@ static rosidl_typesupport_introspection_c__MessageMember DecaRangeB__rosidl_type
     NULL  // resize(index) function pointer
   },
   {
-    "from_id",  // name
+    "tag_id",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(decawave_interfaces__msg__DecaRangeB, from_id),  // bytes offset in struct
+    offsetof(decawave_interfaces__msg__DecaRangeB, tag_id),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -72,29 +71,44 @@ static rosidl_typesupport_introspection_c__MessageMember DecaRangeB__rosidl_type
     NULL  // resize(index) function pointer
   },
   {
-    "to_id",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(decawave_interfaces__msg__DecaRangeB, to_id),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "range",  // name
+    "x1",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(decawave_interfaces__msg__DecaRangeB, range),  // bytes offset in struct
+    offsetof(decawave_interfaces__msg__DecaRangeB, x1),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "y1",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces__msg__DecaRangeB, y1),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "z1",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces__msg__DecaRangeB, z1),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -106,7 +120,7 @@ static rosidl_typesupport_introspection_c__MessageMember DecaRangeB__rosidl_type
 static const rosidl_typesupport_introspection_c__MessageMembers DecaRangeB__rosidl_typesupport_introspection_c__DecaRangeB_message_members = {
   "decawave_interfaces__msg",  // message namespace
   "DecaRangeB",  // message name
-  4,  // number of fields
+  5,  // number of fields
   sizeof(decawave_interfaces__msg__DecaRangeB),
   DecaRangeB__rosidl_typesupport_introspection_c__DecaRangeB_message_member_array,  // message members
   DecaRangeB__rosidl_typesupport_introspection_c__DecaRangeB_init_function,  // function to initialize message memory (memory has to be allocated)

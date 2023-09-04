@@ -68,8 +68,8 @@ bool decawave_interfaces__msg__deca_range_b__convert_from_py(PyObject * _pymsg, 
     }
     Py_DECREF(field);
   }
-  {  // from_id
-    PyObject * field = PyObject_GetAttrString(_pymsg, "from_id");
+  {  // tag_id
+    PyObject * field = PyObject_GetAttrString(_pymsg, "tag_id");
     if (!field) {
       return false;
     }
@@ -79,32 +79,35 @@ bool decawave_interfaces__msg__deca_range_b__convert_from_py(PyObject * _pymsg, 
       Py_DECREF(field);
       return false;
     }
-    rosidl_runtime_c__String__assign(&ros_message->from_id, PyBytes_AS_STRING(encoded_field));
+    rosidl_runtime_c__String__assign(&ros_message->tag_id, PyBytes_AS_STRING(encoded_field));
     Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
-  {  // to_id
-    PyObject * field = PyObject_GetAttrString(_pymsg, "to_id");
-    if (!field) {
-      return false;
-    }
-    assert(PyUnicode_Check(field));
-    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
-    if (!encoded_field) {
-      Py_DECREF(field);
-      return false;
-    }
-    rosidl_runtime_c__String__assign(&ros_message->to_id, PyBytes_AS_STRING(encoded_field));
-    Py_DECREF(encoded_field);
-    Py_DECREF(field);
-  }
-  {  // range
-    PyObject * field = PyObject_GetAttrString(_pymsg, "range");
+  {  // x1
+    PyObject * field = PyObject_GetAttrString(_pymsg, "x1");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->range = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->x1 = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // y1
+    PyObject * field = PyObject_GetAttrString(_pymsg, "y1");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->y1 = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // z1
+    PyObject * field = PyObject_GetAttrString(_pymsg, "z1");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->z1 = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -143,45 +146,50 @@ PyObject * decawave_interfaces__msg__deca_range_b__convert_to_py(void * raw_ros_
       }
     }
   }
-  {  // from_id
+  {  // tag_id
     PyObject * field = NULL;
     field = PyUnicode_DecodeUTF8(
-      ros_message->from_id.data,
-      strlen(ros_message->from_id.data),
+      ros_message->tag_id.data,
+      strlen(ros_message->tag_id.data),
       "replace");
     if (!field) {
       return NULL;
     }
     {
-      int rc = PyObject_SetAttrString(_pymessage, "from_id", field);
+      int rc = PyObject_SetAttrString(_pymessage, "tag_id", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // to_id
+  {  // x1
     PyObject * field = NULL;
-    field = PyUnicode_DecodeUTF8(
-      ros_message->to_id.data,
-      strlen(ros_message->to_id.data),
-      "replace");
-    if (!field) {
-      return NULL;
-    }
+    field = PyFloat_FromDouble(ros_message->x1);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "to_id", field);
+      int rc = PyObject_SetAttrString(_pymessage, "x1", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // range
+  {  // y1
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->range);
+    field = PyFloat_FromDouble(ros_message->y1);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "range", field);
+      int rc = PyObject_SetAttrString(_pymessage, "y1", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // z1
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->z1);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "z1", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

@@ -25,7 +25,11 @@ setup(
             "decawave_pub2 = decawave_test_controller.decawave_pub2:main",
             "decawave_sub2 = decawave_test_controller.decawave_sub2:main",
             "decawave_pub3 = decawave_test_controller.decawave_pub3:main",
-            "decawave_sub3 = decawave_test_controller.decawave_sub3:main"
-        ],
+            "decawave_sub3 = decawave_test_controller.decawave_sub3:main",
+            "decawave_pub4 = decawave_test_controller.decawave_pub4:main",
+            "decawave_sub4 = decawave_test_controller.decawave_sub4:main",
+            "decawave_pub5 = decawave_test_controller.decawave_pub5:main",
+            "decawave_pubf = decawave_test_controller.decawave_pubf:main"             
+        ]
     },
 )

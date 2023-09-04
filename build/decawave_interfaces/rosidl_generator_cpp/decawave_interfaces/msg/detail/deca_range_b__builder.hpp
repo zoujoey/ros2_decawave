@@ -20,15 +20,15 @@ namespace msg
 namespace builder
 {
 
-class Init_DecaRangeB_range
+class Init_DecaRangeB_z1
 {
 public:
-  explicit Init_DecaRangeB_range(::decawave_interfaces::msg::DecaRangeB & msg)
+  explicit Init_DecaRangeB_z1(::decawave_interfaces::msg::DecaRangeB & msg)
   : msg_(msg)
   {}
-  ::decawave_interfaces::msg::DecaRangeB range(::decawave_interfaces::msg::DecaRangeB::_range_type arg)
+  ::decawave_interfaces::msg::DecaRangeB z1(::decawave_interfaces::msg::DecaRangeB::_z1_type arg)
   {
-    msg_.range = std::move(arg);
+    msg_.z1 = std::move(arg);
     return std::move(msg_);
   }
 
@@ -36,32 +36,48 @@ private:
   ::decawave_interfaces::msg::DecaRangeB msg_;
 };
 
-class Init_DecaRangeB_to_id
+class Init_DecaRangeB_y1
 {
 public:
-  explicit Init_DecaRangeB_to_id(::decawave_interfaces::msg::DecaRangeB & msg)
+  explicit Init_DecaRangeB_y1(::decawave_interfaces::msg::DecaRangeB & msg)
   : msg_(msg)
   {}
-  Init_DecaRangeB_range to_id(::decawave_interfaces::msg::DecaRangeB::_to_id_type arg)
+  Init_DecaRangeB_z1 y1(::decawave_interfaces::msg::DecaRangeB::_y1_type arg)
   {
-    msg_.to_id = std::move(arg);
-    return Init_DecaRangeB_range(msg_);
+    msg_.y1 = std::move(arg);
+    return Init_DecaRangeB_z1(msg_);
   }
 
 private:
   ::decawave_interfaces::msg::DecaRangeB msg_;
 };
 
-class Init_DecaRangeB_from_id
+class Init_DecaRangeB_x1
 {
 public:
-  explicit Init_DecaRangeB_from_id(::decawave_interfaces::msg::DecaRangeB & msg)
+  explicit Init_DecaRangeB_x1(::decawave_interfaces::msg::DecaRangeB & msg)
   : msg_(msg)
   {}
-  Init_DecaRangeB_to_id from_id(::decawave_interfaces::msg::DecaRangeB::_from_id_type arg)
+  Init_DecaRangeB_y1 x1(::decawave_interfaces::msg::DecaRangeB::_x1_type arg)
   {
-    msg_.from_id = std::move(arg);
-    return Init_DecaRangeB_to_id(msg_);
+    msg_.x1 = std::move(arg);
+    return Init_DecaRangeB_y1(msg_);
+  }
+
+private:
+  ::decawave_interfaces::msg::DecaRangeB msg_;
+};
+
+class Init_DecaRangeB_tag_id
+{
+public:
+  explicit Init_DecaRangeB_tag_id(::decawave_interfaces::msg::DecaRangeB & msg)
+  : msg_(msg)
+  {}
+  Init_DecaRangeB_x1 tag_id(::decawave_interfaces::msg::DecaRangeB::_tag_id_type arg)
+  {
+    msg_.tag_id = std::move(arg);
+    return Init_DecaRangeB_x1(msg_);
   }
 
 private:
@@ -74,10 +90,10 @@ public:
   Init_DecaRangeB_header()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_DecaRangeB_from_id header(::decawave_interfaces::msg::DecaRangeB::_header_type arg)
+  Init_DecaRangeB_tag_id header(::decawave_interfaces::msg::DecaRangeB::_header_type arg)
   {
     msg_.header = std::move(arg);
-    return Init_DecaRangeB_from_id(msg_);
+    return Init_DecaRangeB_tag_id(msg_);
   }
 
 private:

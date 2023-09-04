@@ -14,8 +14,7 @@
 // Include directives for member types
 // Member `header`
 #include "std_msgs/msg/detail/header__functions.h"
-// Member `from_id`
-// Member `to_id`
+// Member `tag_id`
 #include "rosidl_runtime_c/string_functions.h"
 
 bool
@@ -29,17 +28,14 @@ decawave_interfaces__msg__DecaRangeB__init(decawave_interfaces__msg__DecaRangeB 
     decawave_interfaces__msg__DecaRangeB__fini(msg);
     return false;
   }
-  // from_id
-  if (!rosidl_runtime_c__String__init(&msg->from_id)) {
+  // tag_id
+  if (!rosidl_runtime_c__String__init(&msg->tag_id)) {
     decawave_interfaces__msg__DecaRangeB__fini(msg);
     return false;
   }
-  // to_id
-  if (!rosidl_runtime_c__String__init(&msg->to_id)) {
-    decawave_interfaces__msg__DecaRangeB__fini(msg);
-    return false;
-  }
-  // range
+  // x1
+  // y1
+  // z1
   return true;
 }
 
@@ -51,11 +47,11 @@ decawave_interfaces__msg__DecaRangeB__fini(decawave_interfaces__msg__DecaRangeB 
   }
   // header
   std_msgs__msg__Header__fini(&msg->header);
-  // from_id
-  rosidl_runtime_c__String__fini(&msg->from_id);
-  // to_id
-  rosidl_runtime_c__String__fini(&msg->to_id);
-  // range
+  // tag_id
+  rosidl_runtime_c__String__fini(&msg->tag_id);
+  // x1
+  // y1
+  // z1
 }
 
 bool
@@ -70,20 +66,22 @@ decawave_interfaces__msg__DecaRangeB__are_equal(const decawave_interfaces__msg__
   {
     return false;
   }
-  // from_id
+  // tag_id
   if (!rosidl_runtime_c__String__are_equal(
-      &(lhs->from_id), &(rhs->from_id)))
+      &(lhs->tag_id), &(rhs->tag_id)))
   {
     return false;
   }
-  // to_id
-  if (!rosidl_runtime_c__String__are_equal(
-      &(lhs->to_id), &(rhs->to_id)))
-  {
+  // x1
+  if (lhs->x1 != rhs->x1) {
     return false;
   }
-  // range
-  if (lhs->range != rhs->range) {
+  // y1
+  if (lhs->y1 != rhs->y1) {
+    return false;
+  }
+  // z1
+  if (lhs->z1 != rhs->z1) {
     return false;
   }
   return true;
@@ -103,20 +101,18 @@ decawave_interfaces__msg__DecaRangeB__copy(
   {
     return false;
   }
-  // from_id
+  // tag_id
   if (!rosidl_runtime_c__String__copy(
-      &(input->from_id), &(output->from_id)))
+      &(input->tag_id), &(output->tag_id)))
   {
     return false;
   }
-  // to_id
-  if (!rosidl_runtime_c__String__copy(
-      &(input->to_id), &(output->to_id)))
-  {
-    return false;
-  }
-  // range
-  output->range = input->range;
+  // x1
+  output->x1 = input->x1;
+  // y1
+  output->y1 = input->y1;
+  // z1
+  output->z1 = input->z1;
   return true;
 }
 

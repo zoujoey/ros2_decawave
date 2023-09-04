@@ -33,11 +33,11 @@ class publishernode(Node):
     def get_dist(self): #Getting Distance From Port
         dummy = 'D633[4.43,0.00,0.00]=2.60 9620[5.41,5.08,0.00]=2.74 919B[2.31,4.92,0.00]=4.35 CC2E[0.00,0.00,0.00]=6.23'
         try: 
-            resp = self.ser.readline().decode().strip()
-            if len(resp)<100:
-                return dummy
-            elif len(resp)>140:
-                return dummy
+            resp = str(self.ser.readline().decode().strip())
+            #if len(resp)<100:
+            #    return dummy
+            #elif len(resp)>140:
+            #    return dummy
             return resp
         except:
             return dummy
@@ -45,7 +45,7 @@ class publishernode(Node):
     def publish_data(self): #Publishing the raw data as a string
         msg = String()
         self.counter+=1
-        timecurr = time.time()-self.time
+        timecurr = str(time.time()-self.time)
         msg.data = str(timecurr)+" "+self.get_dist()
         cmd = msg.data
         self.get_logger().info("Data_Published: "+cmd)

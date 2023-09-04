@@ -9,11 +9,13 @@ module decawave_interfaces {
     struct DecaRangeB {
       std_msgs::msg::Header header;
 
-      string from_id;
+      string tag_id;
 
-      string to_id;
+      float x1;
 
-      float range;
+      float y1;
+
+      float z1;
     };
   };
 };

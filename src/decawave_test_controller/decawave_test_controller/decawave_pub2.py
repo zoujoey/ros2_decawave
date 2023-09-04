@@ -53,10 +53,6 @@ class publishernode(Node):
         results = {}
         for substring in substrings:
             tag = substring[:4]
-            if tag=='le_u': 
-                pass
-            elif tag == 'est[':
-                pass
             values_str = substring.split('=')[0]
             values_str1 = values_str.split('[')[1]
             values_str1 = values_str1.strip(']')
